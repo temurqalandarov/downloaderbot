@@ -1,0 +1,20 @@
+{
+  "name": "downloader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "Temur Qalandarov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "grammy": "^1.8.3",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
